@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../assets/img1.png');
+   background-size: cover;
+   height:100vh;
+   width: 100%;
+}
+.text-content{
+    position: relative;
+    z-index: 1;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100% ;
+    margin-top: 30px ;
+}
+nav ul{
+    display: flex;
+    gap: 80px  ;
+}
+nav ul li{
+    list-style: none;
+    justify-content: space-around;
+    transition: 1s ;
+}
+nav ul li a{
+    text-decoration: none;
+    color: yellow;
+    transition: 1s ;
+
+}
+.logo img{
+    width: 100px;
+    height: 50px ;
+    padding-left: 30px ;
+}
+.mid_nav{
+    font-size:15px ;
+    font-weight:600;
+}
+button{
+    padding: 5px ;
+    font-size: 15px ;
+    font-weight: 700;
+    width: 100px;
+    height: 30px ;
+    justify-content: space-around;
+    margin-right: 20px ;
+    color: white;
+    background-color: red;
+    border-radius: 5px ;
+    transition:1s ;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-top: 200px ;
+    color: yellow;
+    text-shadow:2px 2px red;
+}
+.first{
+    font-size: 80px ;
+}
+.sec{
+    margin: 40px ;
+}
+.sec a{
+    text-decoration: none;
+    font-size: 25px ;
+    background-color: red;
+    color: white;
+    border-radius: 10px ;
+    padding: 5px ;
+    transition:  2s ;
+}
+button:hover{
+    background-color: yellow;
+    color: black;
+   
+}
+.mid_nav ul li:hover{
+    color: black;
+    background-color: yellow;
+    border-radius: 5px;
+}
+.mid_nav ul li a:hover{
+    color: black;
+}
+.main div a:hover{
+    background-color: yellow;
+    color: black;
+
+}
