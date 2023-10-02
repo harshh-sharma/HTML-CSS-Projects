@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-size: 1550px 750px ;
+    background-color: rgb(255, 245, 232);
+}
+.navbar{
+    padding: 20px 7% ;
+}
+.list{
+    display: flex;
+    gap:  6%  ;
+    align-items: center;
+}
+.listitem{
+    list-style: none ;
+    font-size: 20px ;
+    font-weight: 600;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.left-main{
+    width: 40% ;
+    align-items: center;
+    margin-top: 2% ;
+}
+.left-main h1{
+    font-size: 40px ;
+    font-weight: 700 ;
+}
+.left-main p{
+    font-size: 20px ;
+    font-weight: 500 ;
+    margin-top: 15px ;
+}
+.left-main button{
+    margin-top: 15px ;
+    font-size: 20px ;
+    padding: 7px;
+    border-radius: 5px ;
+    color: rgb(255, 245, 232);
+    background-color: green;
+    transition: 2s ;
+}
+.rightmain {
+    width: 60%;
+    padding: 7%;
+  }
+  
+  .rightmain div img {
+    width: 30%;
+  }
+  
+  .rightmain div img:first-child {
+    margin-right: 20px;
+  }
+  
+  .rightmain div {
+    margin-bottom: 20px;
+  }
+  
+  .rightmain > img {
+    width: 64%;
+  }
+.listitem:hover{
+    text-decoration: underline;
+    text-decoration-color: green;
+    color: green;
+}
+.left-main button:hover{
+    color: green;
+    background-color:rgb(255, 245, 232);
+    border: 2px solid rgb(35, 157, 35);
+    font-weight: 500 ;
+    font-weight: 600;
+}
+.left-main h1:hover{
+     color: green;
+}
+.left-main p:hover{
+  color: green;
+}
