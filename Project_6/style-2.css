@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(245, 239, 239);;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    gap: 50em  ;
+    height: 10vh;
+    align-items: center;
+
+}
+.list{
+    display: flex;
+    gap: 4em;
+}
+.listitem{
+    list-style: none;
+}
+.listitem a{
+    text-decoration: none;
+    font-size: 17px ;
+    font-weight: 600;
+    color: rgb(1, 131, 1);
+}
+.logo img{
+    height: 50px ;
+    margin-left: 5em ;
+}
+.section{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.top-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12em;
+    margin-bottom: 20px ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.bottom-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px ;
+    
+}
+.box1{
+    width: 200px;
+    height: 100px  ;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px ;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 5px ;
+}
+.box2{
+    width: 200px;
+    height: 100px ;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px ;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 5px ;
+}
+.box3{
+    width: 200px;
+    height: 100px ;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px ;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 5px ;
+
+}
+
+.box1 span{
+    color: rgb(1, 131, 1);
+}
+.box2 span{
+    color: rgb(1, 131, 1);
+}
+.box3 span{
+    color: rgb(1, 131, 1);
+    
+}
+.top-section h1{
+    font-size: 4em;
+    margin-bottom: 30px ;
+    color:  rgb(1, 131,1);
+}
+.top-section p{
+    font-size: 20px ;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+.listitem a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(1, 131,1); 
+}
